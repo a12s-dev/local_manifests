@@ -7,3 +7,16 @@ Then to sync up:
 ```
 repo sync
 ```
+
+## Galaxy A12 (a12s)
+
+In addition to `a21s.xml`, use `a12s.xml` for SM-A127F:
+
+```
+git clone https://github.com/varifocal/local_manifests.git -b lineage-23.2 .repo/local_manifests
+# then copy or symlink a12s.xml into .repo/local_manifests/ (or keep both a21s.xml and a12s.xml)
+repo sync
+```
+
+`a12s.xml` points device/vendor/kernel at varifocal public repos and hardware/slsi at LineageOS.
+Kernel revision is `a16-kernel` (work branch). **UNTESTED ON DEVICE.**
