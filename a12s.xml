@@ -3,9 +3,9 @@
   <project name="LineageOS/android_device_samsung_a21s" path="device/samsung/a21s" revision="lineage-23.2" />
   <project name="LineageOS/android_device_samsung_a21s-common" path="device/samsung/a21s-common" revision="lineage-23.2" />
   <project name="TheMuppets/proprietary_vendor_samsung_a21s" path="vendor/samsung/a21s" revision="lineage-23.2" />
-  <project name="varifocal/proprietary_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" revision="lineage-23.2-a12s-camfp" />
-  <project name="varifocal/android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" revision="a12s-los-camfp" />
-  <project name="varifocal/android_device_samsung_a12s" path="device/samsung/a12s" revision="lineage-23.2-a21s-camfp" />
+  <project name="a12s-dev/proprietary_vendor_samsung_a12s" path="vendor/samsung/a21s-common" revision="lineage-23.2-a12s-camfp" />
+  <project name="a12s-dev/android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" revision="a12s-los-perf" />
+  <project name="a12s-dev/android_device_samsung_a12s" path="device/samsung/a12s" revision="lineage-23.2-a21s-camfp" />
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" revision="lineage-23.2" />
